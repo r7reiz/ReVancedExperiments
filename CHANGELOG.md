@@ -1,3 +1,11 @@
+# [1.10.0-dev.1](https://github.com/r7reiz/ReVancedExperiments/compare/v1.9.0...v1.10.0-dev.1) (2026-03-06)
+
+
+### Features
+
+* Add compatibility for Plus Messager ([3a5f2e1](https://github.com/r7reiz/ReVancedExperiments/commit/3a5f2e172b524457f9c8b6ae9f54e818ac4a470c))
+* **Instagram:** Support latest app version ([e28fd2c](https://github.com/r7reiz/ReVancedExperiments/commit/e28fd2c262d8dd7278c3617c1ab41dd62111258b))
+
 # [1.10.0-dev.1](https://github.com/Aunali321/ReVancedExperiments/compare/v1.9.0...v1.10.0-dev.1) (2025-08-11)
 
 
