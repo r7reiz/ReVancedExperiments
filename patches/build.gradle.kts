@@ -2,10 +2,12 @@ group = "li.auna"
 
 patches {
     about {
-        name = "Plus Experiments"
-        description = "A collection of patches for Telegram clients"
-        source = "git@github.com:r7reiz/PlusExperiments.git"
-        author = "Reis"
+        name = "ReVanced Experiments"
+        description = "A collection of patches for ReVanced"
+        source = "git@github.com:Aunali321/ReVancedExperiments.git"
+        author = "AunAli"
+        contact = "hello@auna.li"
+        website = "https://auna.li"
         license = "GNU General Public License v3.0"
     }
 }
