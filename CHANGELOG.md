@@ -1,3 +1,15 @@
+# [1.0.0-dev.2](https://github.com/r7reiz/ReVancedExperiments/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-03-07)
+
+
+### Bug Fixes
+
+* revert update build.gradle.kt ([e4cbb97](https://github.com/r7reiz/ReVancedExperiments/commit/e4cbb97d9883950dda0049b1603025725611964c))
+
+
+### Features
+
+* Add suppor for more Telegram clients ([9eaab80](https://github.com/r7reiz/ReVancedExperiments/commit/9eaab8000c76bca4f0bc5dc3f7ae57a055e6a27f))
+
 # 1.0.0-dev.1 (2026-03-06)
 
 
