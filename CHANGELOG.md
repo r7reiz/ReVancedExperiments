@@ -1,3 +1,10 @@
+# [1.0.0-dev.3](https://github.com/r7reiz/ReVancedExperiments/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2026-03-07)
+
+
+### Bug Fixes
+
+* test ([721a9a6](https://github.com/r7reiz/ReVancedExperiments/commit/721a9a6fcf0dd1f4d1e3bd25193a95bb457dc96a))
+
 # [1.0.0-dev.2](https://github.com/r7reiz/ReVancedExperiments/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-03-07)
 
 
