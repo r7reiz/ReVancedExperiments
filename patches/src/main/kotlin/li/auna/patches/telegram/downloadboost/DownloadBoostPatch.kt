@@ -15,8 +15,7 @@ val downloadBoostPatch = bytecodePatch(
     compatibleWith(
         "org.telegram.messenger",
         "org.telegram.messenger.web",
-        "org.telegram.messenger.beta",
-        "org.telegram.plus"
+        "uz.unnarsx.cherrygram"
     )
 
     execute {
