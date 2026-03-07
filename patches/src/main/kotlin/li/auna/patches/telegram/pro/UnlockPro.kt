@@ -17,7 +17,6 @@ val unlockProPatch = bytecodePatch(
 
     execute {
         setOf(
-            isPremiumUserFingerprint,
             isPremiumFingerprint,
             isPremiumForStoryFingerprint
         ).forEach { it.method.returnEarly(true) }
