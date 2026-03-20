@@ -15,10 +15,11 @@ val unlockProPatch = bytecodePatch(
         "org.telegram.plus"
     )
 
-    execute {
-        setOf(
-            isPremiumFingerprint,
-            isPremiumForStoryFingerprint
-        ).forEach { it.method.returnEarly(true) }
+    apply {
+        listOf(
+            isPremiumUserMethod,
+            isPremiumMethod,
+            isPremiumForStoryMethod,
+        ).forEach { it.returnEarly(true) }
     }
 }

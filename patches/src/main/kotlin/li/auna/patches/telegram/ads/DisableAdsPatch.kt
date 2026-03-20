@@ -15,7 +15,7 @@ val hideAdsPatch = bytecodePatch(
         "org.telegram.plus"
     )
 
-    execute {
-        hideSponsoredMessagesFingerprint.method.returnEarly()
+    apply {
+        hideSponsoredMessagesMethod.returnEarly()
     }
 }

@@ -1,6 +1,5 @@
 package li.auna.patches.telegram.disableautoupdate
 
-import app.revanced.patcher.extensions.InstructionExtensions.addInstruction
 import app.revanced.patcher.patch.bytecodePatch
 import li.auna.util.returnEarly
 
@@ -16,9 +15,9 @@ val unlockProPatch = bytecodePatch(
         "org.telegram.plus"
     )
 
-    execute {
-        checkAppUpdateFingerprint.method.returnEarly(false)
-        setNewAppVersionAvailableFingerprint.method.returnEarly(false)
-        blockViewUpdateFingerprint.method.returnEarly()
+    apply {
+        checkAppUpdateMethod.returnEarly()
+        setNewAppVersionAvailableMethod.returnEarly(false)
+        blockViewUpdateMethod.returnEarly()
     }
 }
