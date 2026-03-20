@@ -17,7 +17,6 @@ val unlockProPatch = bytecodePatch(
 
     apply {
         listOf(
-            isPremiumUserMethod,
             isPremiumMethod,
             isPremiumForStoryMethod,
         ).forEach { it.returnEarly(true) }
