@@ -11,10 +11,11 @@ val hideAdsPatch = bytecodePatch(
     compatibleWith(
         "org.telegram.messenger",
         "org.telegram.messenger.web",
-        "uz.unnarsx.cherrygram"
+        "org.telegram.messenger.beta",
+        "org.telegram.plus"
     )
 
-    execute {
-        needSendTypingFingerprint.method.returnEarly()
+    apply {
+        needSendTypingMethod.returnEarly()
     }
 }

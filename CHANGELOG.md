@@ -1,3 +1,35 @@
+# [1.0.0-dev.4](https://github.com/r7reiz/ReVancedExperiments/compare/v1.0.0-dev.3...v1.0.0-dev.4) (2026-03-20)
+
+
+### Features
+
+* Migrate to patcher v22 ([2fbb7a4](https://github.com/r7reiz/ReVancedExperiments/commit/2fbb7a483499b9f8b734465e526bd5303a6e5beb))
+* Require ReVanced Manager v2.0+ ([5dff894](https://github.com/r7reiz/ReVancedExperiments/commit/5dff8946ea2e8daed052c2058443b5a07e9aca7c))
+
+
+### BREAKING CHANGES
+
+* Migrated to patcher v22 API. ReVanced Manager v2.0+ is required.
+
+# [2.0.0-dev.1](https://github.com/Aunali321/ReVancedExperiments/compare/v1.10.0-dev.1...v2.0.0-dev.1) (2026-03-20)
+
+
+### Features
+
+* Require ReVanced Manager v2.0+ ([5dff894](https://github.com/Aunali321/ReVancedExperiments/commit/5dff8946ea2e8daed052c2058443b5a07e9aca7c))
+
+
+### BREAKING CHANGES
+
+* Migrated to patcher v22 API. ReVanced Manager v2.0+ is required.
+
+# [1.10.0-dev.1](https://github.com/Aunali321/ReVancedExperiments/compare/v1.9.0...v1.10.0-dev.1) (2025-08-11)
+
+
+### Features
+
+* **Instagram:** Support latest app version ([e28fd2c](https://github.com/Aunali321/ReVancedExperiments/commit/e28fd2c262d8dd7278c3617c1ab41dd62111258b))
+
 # [1.9.0](https://github.com/Aunali321/ReVancedExperiments/compare/v1.8.0...v1.9.0) (2025-07-16)
 
 

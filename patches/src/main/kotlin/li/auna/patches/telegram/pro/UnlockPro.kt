@@ -11,14 +11,14 @@ val unlockProPatch = bytecodePatch(
     compatibleWith(
         "org.telegram.messenger",
         "org.telegram.messenger.web",
-        "uz.unnarsx.cherrygram"
+        "org.telegram.messenger.beta",
+        "org.telegram.plus"
     )
 
-    execute {
-        setOf(
-            isPremiumUserFingerprint,
-            isPremiumFingerprint,
-            isPremiumForStoryFingerprint
-        ).forEach { it.method.returnEarly(true) }
+    apply {
+        listOf(
+            isPremiumMethod,
+            isPremiumForStoryMethod,
+        ).forEach { it.returnEarly(true) }
     }
 }
